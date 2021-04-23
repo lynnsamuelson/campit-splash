@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/campit-splash/static/css/main.b1088f9a.chunk.css",
+    "main.js": "/campit-splash/static/js/main.5a334fa9.chunk.js",
+    "main.js.map": "/campit-splash/static/js/main.5a334fa9.chunk.js.map",
+    "runtime-main.js": "/campit-splash/static/js/runtime-main.f9de5ad8.js",
+    "runtime-main.js.map": "/campit-splash/static/js/runtime-main.f9de5ad8.js.map",
+    "static/js/2.658887ef.chunk.js": "/campit-splash/static/js/2.658887ef.chunk.js",
+    "static/js/2.658887ef.chunk.js.map": "/campit-splash/static/js/2.658887ef.chunk.js.map",
+    "static/js/3.0902b8ff.chunk.js": "/campit-splash/static/js/3.0902b8ff.chunk.js",
+    "static/js/3.0902b8ff.chunk.js.map": "/campit-splash/static/js/3.0902b8ff.chunk.js.map",
+    "index.html": "/campit-splash/index.html",
+    "static/css/main.b1088f9a.chunk.css.map": "/campit-splash/static/css/main.b1088f9a.chunk.css.map",
+    "static/js/2.658887ef.chunk.js.LICENSE.txt": "/campit-splash/static/js/2.658887ef.chunk.js.LICENSE.txt",
+    "static/media/Img1_ComingSoonSearchTool.49b90e5f.jpg": "/campit-splash/static/media/Img1_ComingSoonSearchTool.49b90e5f.jpg",
+    "static/media/Img2_howItWorksForParents.ef42dcad.jpg": "/campit-splash/static/media/Img2_howItWorksForParents.ef42dcad.jpg",
+    "static/media/Img3_AboutUs.0108b348.jpg": "/campit-splash/static/media/Img3_AboutUs.0108b348.jpg",
+    "static/media/Img4_campsHowItWorks.c1fbec65.jpg": "/campit-splash/static/media/Img4_campsHowItWorks.c1fbec65.jpg",
+    "static/media/logo_long.c69839a9.png": "/campit-splash/static/media/logo_long.c69839a9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9de5ad8.js",
+    "static/js/2.658887ef.chunk.js",
+    "static/css/main.b1088f9a.chunk.css",
+    "static/js/main.5a334fa9.chunk.js"
+  ]
+}
