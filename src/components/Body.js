@@ -6,7 +6,7 @@ import imgFour from "../images/Img4_campsHowItWorks.jpg"
 import "./Body.css"
 
 export const Body = () => (
-  <div className="">
+  <div className="main">
     <img src={imgOne} alt="Coming Soon Search Tool" />
     <img src={imgTwo} alt="Coming Soon Search Tool" />
     <img src={imgThree} alt="Coming Soon Search Tool" />

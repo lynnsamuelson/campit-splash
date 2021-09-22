@@ -4,6 +4,7 @@
 
 .footer {
   background-color: #689F39;
+  min-width: 200%;
 }
 
 .footer__section {
