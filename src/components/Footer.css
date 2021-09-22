@@ -8,6 +8,7 @@
 
 .footer__section {
   flex: 3;
+  position: relative;
 }
 
 .footer__img {
@@ -25,16 +26,12 @@
 .footer--social-media img {
   background-color: #fff;
   border-radius: 6px;
-  height: auto;
-  max-height: 32px;
-  max-width: 32px;
   margin: 0 10px 0 0;
   padding: 0.2rem;
 }
 
-.footer__img img {
-  width: 100%;
-  height: auto;
+.footer--social-media a:first-child {
+  margin: 0 10px 0 0;
 }
 
 .footer__section button {
@@ -58,7 +55,7 @@
   font-weight: 700;
 }
 
-.white {
+.white, .white a {
   color: #fff;
 }
 
@@ -66,4 +63,35 @@
   margin-top: 25px;
   flex:3;
   padding-right: 1rem;
+}
+
+.newletter__overlay {
+  position: relative;
+}
+
+.overlay, .newsletter {
+  position: absolute;
+  width: 94%;
+  height: 75%;
+  background-color: #ffffff99;
+  top: 0;
+  border-radius: 6px;
+}
+.newsletter {
+  height: 100%;
+}
+
+.overlay h3, .newsletter h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 42%;
+  font-size: x-large;
+  color: #689F39;
+}
+
+.newsletter h3 {
+  font-size: large;
+  margin: 0;
+  margin-top: 5%;
 }
