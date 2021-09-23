@@ -44,13 +44,26 @@ export const Footer = () => {
           <p className="white">Privacy</p>
           <p className="white">Ask a question</p>
       </section>
-      <section className="footer__section">
+      { window.innerWidth < 925  ? 
+
+       ( <section className="footer__section">
+          <p className="dark">Camps</p>
+          <p className="white">Browse by:</p>
+          <p className="white">camp</p>
+          <p className="white">category</p>
+          <p className="white">age group</p>
+          <p className="white">dates</p>
+      </section>)
+     : 
+        (<section className="footer__section">
           <p className="dark">Camps</p>
           <p className="white">Browse by camp</p>
           <p className="white">Browse by category</p>
           <p className="white">Browse by age group</p>
           <p className="white">Browse by dates</p>
-      </section>
+      </section>)
+}
+      
       <section className="footer__section">
         <button onClick={Login}>Create an account or sign in</button>
         <button onClick={Search}>Find sessions</button>

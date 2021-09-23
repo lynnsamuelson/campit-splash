@@ -4,7 +4,6 @@
 
 .footer {
   background-color: #689F39;
-  min-width: 200%;
 }
 
 .footer__section {
@@ -96,3 +95,120 @@
   margin: 0;
   margin-top: 5%;
 }
+@media screen and (min-width: 1069px) {
+  .newsletter {
+    height: 200%;
+  }
+  
+  .footer__section {
+    margin-right: 2px;
+  }
+
+  .white {
+    margin: 5px 0;
+  }
+}
+
+  @media screen and (max-width: 1068px) {
+  .newsletter {
+    height: 150%;
+  }
+
+  .footer__section {
+    margin-right: 2px;
+  }
+  
+  .white {
+    margin: 5px 0;
+  }
+}
+  @media screen and (max-width: 820px) {
+    
+    .footer__section {
+      margin-right: 6px;
+    }
+    
+    .newsletter h3 {
+      font-size: medium;
+    }  
+    
+    .footer--social-media {
+      margin-left: 6rem;
+    }
+  }
+  
+  @media screen and (max-width: 789px) {
+    .overlay {
+      height: 65%;
+    }
+
+    .white {
+      font-size: small;
+    }
+  }
+
+  @media screen and (max-width: 675px) {
+     
+    .footer--social-media {
+      margin-left: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+     
+    .footer--social-media {
+      margin-left: 3rem;
+      margin-top: -1rem;
+    }
+    .footer__img img {
+      margin-top: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+     
+    .footer--social-media {
+      margin-left: 2rem;
+      margin-top: -1rem;
+    }
+    .footer__img img {
+      margin-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 530px) {
+     
+    .footer--social-media {
+      margin-left: 1rem;
+      margin-top: -1rem;
+    }
+    .footer__img img {
+      margin-top: 2rem;
+    }
+
+    .footer__section button {
+      width: 5rem;
+    }
+
+    .footer__section {
+      flex: 10 1;
+    }
+  }
+
+  @media screen and (max-width: 530px) {
+    .footer--social-media {
+      margin-left: 0rem;
+      margin-top: -1rem;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .footer--social-media {
+      flex-direction: column;
+      width: 1.5rem;
+      margin-right: 1rem;
+    }
+    .footer--social-media a {
+      width: 1rem;
+      margin-left: 0.5rem;
+    }
+  }
