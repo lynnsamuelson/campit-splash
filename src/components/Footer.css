@@ -95,6 +95,11 @@
   margin: 0;
   margin-top: 5%;
 }
+
+.mobile__footer {
+  width: 70%;
+}
+
 @media screen and (min-width: 1069px) {
   .newsletter {
     height: 200%;
@@ -109,6 +114,9 @@
   }
 }
 
+.logo {
+  min-width: 50px;
+}
   @media screen and (max-width: 1068px) {
   .newsletter {
     height: 150%;
